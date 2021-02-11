@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://Deepak223:Dipak223@@cluster0.jp9fg.mongodb.net/Cluster0?retryWrites=true&w=majority",
+    "jwtSecret": "secrettoken"
+}
