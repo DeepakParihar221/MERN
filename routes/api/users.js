@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken')
 const config = require('config');
 const router = express.Router();
 
-router.get('/', [
+router.post('/', [
     check('name', 'Name is required').not().isEmpty(),
     check('email', 'Please enter a valid email').isEmail(),
     check('password', 'Minimum length should be 5').isLength({min: 5})
